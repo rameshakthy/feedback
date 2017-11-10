@@ -1,0 +1,49 @@
+.container{
+    max-width: 1050px;
+    display: block;
+}
+
+.top-space {
+    padding-top: 20px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+}
+
+.feedback-grid {
+    border: 1px solid lightgrey;
+}
+
+
+
+#scrollbar1
+{
+    width:80%;
+    margin:20px auto 10px;
+    position: relative;
+}
+
+#scrollbar1 .viewport
+{
+    height: 300px;
+    overflow:hidden;
+    position:relative;
+    background: #dedede;
+}
+
+#scrollbar1 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
